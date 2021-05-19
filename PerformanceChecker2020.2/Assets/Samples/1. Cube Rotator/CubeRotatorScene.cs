@@ -10,14 +10,17 @@ public class CubeRotatorScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < NumOfObject; ++i)
-        {
-        }
-    }
+        int x = (int)Mathf.Sqrt(NumOfObject);
+        int y = x;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        const float distance = 3;
+        for (int i = 0; i < y; ++i)
+        {
+            for(int k = 0; k < x; ++k)
+            {
+                var go = GameObject.Instantiate(prefab);
+                go.transform.position = transform.position + new Vector3(i * distance, -k * distance, 0);
+            }
+        }
     }
 }
