@@ -6,6 +6,10 @@
 C#의 퍼포먼스 체크를 기록하는 곳  
 [결과](https://www.notion.so/leesun/CSharp-Unity-Performance-Checker-79daf67cccbe47679a78e9ff58ba5195)  를 눌러 볼 수 있다.
 
+## List  
+- Job System  
+
+
 ## Reference Keyword
 
 - Class의 경우 ref 키워드 속도 차이
