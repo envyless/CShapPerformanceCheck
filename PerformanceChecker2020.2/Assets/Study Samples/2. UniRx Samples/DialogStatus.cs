@@ -47,7 +47,6 @@ public class DialogStatus : Dialog
             Atk.text = _v.ToString();
         });
 
-        float beforeDef = 0;
         statData.Def.Subscribe(_v =>
         {
             Def.text = _v.ToString();

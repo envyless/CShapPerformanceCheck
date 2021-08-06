@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/3. ECS Training/1. Ant Manager/Assets/_Scenes/ants.unity
+    path: Assets/Study Samples/3. ECS Training/1. Ant Manager/Assets/_Scenes/ants.unity
     guid: 5ae4d494acd7d844b933e8cc1c6084ad
   m_configObjects: {}
